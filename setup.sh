@@ -2,7 +2,7 @@
 set -e
 
 MYVER=5.1.63
-Q4MVER=0.9.6
+Q4MVER=0.9.7
 
 CDIR=$(cd $(dirname $0) && pwd)
 cd /usr/local/src
