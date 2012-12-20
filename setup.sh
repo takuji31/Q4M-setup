@@ -62,7 +62,7 @@ chmod 755 /usr/local/q4m/var
 
 cd /usr/local/src
 if [ ! -f q4m-$Q4MVER.tar.gz ]; then
-    wget http://q4m.kazuhooku.com/dist/pre/q4m-$Q4MVER.tar.gz
+    wget http://q4m.kazuhooku.com/dist/q4m-$Q4MVER.tar.gz
 fi
 if [ -d q4m-$Q4MVER ]; then
     rm -rf q4m-$Q4MVER
